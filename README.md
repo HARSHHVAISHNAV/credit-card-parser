@@ -14,7 +14,7 @@ Built using **Python**, **pdfplumber**, **ReportLab**, and **Streamlit**.
 ---
 
 ## Project Structure
-
+```bash
 credit-card-parser/
 │
 ├── app/
