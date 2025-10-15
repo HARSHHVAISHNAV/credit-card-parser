@@ -46,9 +46,9 @@ Copy code
 ---
 
 ## How to Run Locally
-
-1.Clone the repository
 ```bash
+1.Clone the repository
+
 git clone https://github.com/<your-username>/credit-card-parser.git
 cd credit-card-parser
 
