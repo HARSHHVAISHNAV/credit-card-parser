@@ -1,0 +1,10 @@
+pdfplumber
+pytesseract
+pdf2image
+pillow
+pandas
+python-dateutil
+streamlit
+selenium
+webdriver-manager
+gunicorn

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Data & generated outputs
+data/samples/*.pdf
+parsed_statements.csv
+parsed_statements.json
+parsed_statements.pdf
+/tmp/
+
+# Streamlit cache
+.streamlit/
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
