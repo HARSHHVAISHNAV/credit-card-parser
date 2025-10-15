@@ -28,7 +28,6 @@ credit-card-parser/
 ├── generate_one_pdf.py # Creates a new random credit card statement
 ├── requirements.txt # Python dependencies
 ├── README.md # Documentation
-└── .gitignore # Ignore unnecessary files
 ```
 
 
