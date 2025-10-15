@@ -6,7 +6,7 @@ import random
 import os
 from datetime import datetime, timedelta
 
-
+# Change the details every time you want to generate a new sample PDF
 BANK_DETAILS = {
     "bank_name": "Hdfc Bank",                  # Change bank name
     "card_holder": "Punit Jain",               # Change name
@@ -16,9 +16,6 @@ BANK_DETAILS = {
     "total_outstanding_balance": "20000.00"    # Amount
 }
 
-# ----------------------------------------
-# NO NEED TO EDIT BELOW THIS LINE
-# ----------------------------------------
 
 MERCHANTS = [
     "AMAZON", "FLIPKART", "SWIGGY", "ZOMATO", "BIG BAZAAR",

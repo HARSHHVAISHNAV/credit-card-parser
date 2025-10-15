@@ -26,7 +26,7 @@ def save_updated_data(df):
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="Credit Card Statement Parser", layout="wide")
-st.title("💳 Credit Card Statement Parser")
+st.title("Credit Card Statement Parser")
 
 st.markdown(
     """
@@ -63,13 +63,13 @@ if uploaded_file:
     # Save updates
     save_updated_data(df)
 
-    st.success("✅ File parsed successfully and data updated!")
+    st.success("File parsed successfully and data updated!")
     st.json(result)
 
     # Remove temp file
     os.remove(tmp_path)
 
-st.subheader("📊 Parsed Statements So Far")
+st.subheader("Parsed Statements So Far")
 
 # Display updated table
 df = load_existing_data()
@@ -80,12 +80,12 @@ if not df.empty:
     col1, col2, col3 = st.columns(3)
     with col1:
         with open(CSV_PATH, "rb") as f:
-            st.download_button("⬇️ Download CSV", f, file_name="parsed_statements.csv")
+            st.download_button("⬇ Download CSV", f, file_name="parsed_statements.csv")
 
     with col2:
         with open(JSON_PATH, "rb") as f:
-            st.download_button("⬇️ Download JSON", f, file_name="parsed_statements.json")
+            st.download_button("⬇ Download JSON", f, file_name="parsed_statements.json")
 
     with col3:
         with open(PDF_PATH, "rb") as f:
-            st.download_button("⬇️ Download PDF Report", f, file_name="parsed_statements.pdf")
+            st.download_button("⬇ Download PDF Report", f, file_name="parsed_statements.pdf")
