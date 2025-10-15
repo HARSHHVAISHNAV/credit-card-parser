@@ -29,6 +29,7 @@ credit-card-parser/
 ├── requirements.txt # Python dependencies
 ├── README.md # Documentation
 └── .gitignore # Ignore unnecessary files
+```
 
 yaml
 Copy code
