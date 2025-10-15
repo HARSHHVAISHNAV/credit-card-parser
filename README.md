@@ -31,8 +31,6 @@ credit-card-parser/
 └── .gitignore # Ignore unnecessary files
 ```
 
-yaml
-Copy code
 
 ---
 
